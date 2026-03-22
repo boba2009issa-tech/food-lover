@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  
+  background: url("Food-Lover-main/img/home_bg.jpeg") center center/cover no-repeat;
+  height: 800px;
+  background-attachment: fixed;
+  width: 100%;
+  background-blend-mode: darken;
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+}
+.icon img{
+  width: 150px;
+  position: relative;
+  right: 100px;
+  top: -25px;
+  
+}
+.navigation-bar a{
+  position: relative;
+  top: 20px;
+  left: 150px;
+  
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+  margin: 10px;
+}
+.nava:hover{
+  box-shadow: 0px 1px 1px rgb(252, 252, 30);
+  padding-bottom: 20px;
+}
+.main{
+  color: white;
+  text-align: center;
+  
+}
+.main h1{
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+}
+.main span{
+  color: rgb(250, 200, 75);
+}
+.main p{
+  font-size: larger;
+  position: relative;
+  top: 120px;
+  font-weight: bolder;
+}
+.main-btn{
+  position: relative;
+  top: 160px;
+  text-decoration: none;
+  border:  solid white;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.main-btn:hover{
+  background-color: darkorange;
+}
+.history{
+  background-color: white;
+  height: 700px;
+}
+.f1 h1,p{
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+.story{
+  display: flex;
+  flex-direction: row;
+}
+.story p{
+  margin-top: 100px ;
+  text-align: start;
+  margin-left: 200px ;
+  margin-right: 160px;
+  position: relative;
+  font-size: large;
+  color: rgb(116, 102, 102);
+} 
+.story img{
+  margin-top: 150px;
+  margin-right: 200px;
+  width: 500px;
+}
+.story a{
+  text-decoration: none;
+  border: solid rgb(73, 68, 68) 10px ;
+  border-radius: 15px;
+  background-color: rgb(73, 68, 68);
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  position: relative;
+  top: 120px;
+  left: 25px;
+}
+.story a:hover{
+  background-color: rgb(255, 177, 9);
+  border-color: rgb(255, 177, 9) ;
+}
+.menu{
+  background: url("Food-Lover-main/img/offer-background.jpg") center center/cover no-repeat;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+}
+.menu .h1, .more{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+.menu .h1{
+  color:rgb(250, 200, 75) ;
+  font-size: 40px;
+
+}
+.menu .more{
+  position: relative;
+  top: 70px;
+}
+.offer{
+  display: flex;
+  flex-direction: row ;
+  margin: 100px;
+  color: white;
+}
+.offer span{
+  text-decoration: line-through;
+  color: white;
+}
+.offer p{
+  color:rgb(250, 200, 75) ;
+  font-weight: 200;
+  margin-top: -60px;
+  
+}
+.offer h5{
+  font-weight: 200;
+  margin-top: 20px;
+}
+.offer div{
+  text-align: center;
+}
+.special{
+  background-color: beige;
+  height: 1000px;
+}
+.special h1, 
+.special p{
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+.special h1{
+  font-size: 40px;
+}
+.special p{
+  position: relative;
+  top: 120px;
+  color: rgb(66, 57, 57);
+}
+.meals{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+.meal{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-right: 100px;
+  box-shadow: 10px 1px 10px black;
+
+}
+
+
+
+.meal h2{
+  color: rgb(66, 57, 57);
+}
+.meal h3{
+  color:rgb(250, 200, 75)  ;
+  background-color: rgb(78, 63, 63);
+}
+.meal img{
+  width: 100px;
+}
+.time{
+  height: 300px;
+  background: url(Food-Lover-main/img/daytime_bg.jpeg) center center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  
+  color: white;
+}
+.day{
+  margin-top: 90px;
+  margin-right:100px ;
+}
+.day h2{
+  margin-top: 10px;
+  position: relative;
+  right: 15px;
+}
+.day p{
+  margin-top: -60px;
+  position: relative;
+  right: 30px;
+}
+.day img{
+  position: relative;
+  right: 20px;
+}
+.day .break{
+  position: relative;
+  left: 7px;
+  top: -10px;
+}
+.dessert{
+  position: relative;
+  left: 20px;
+}
+.gallery{
+  background: url("Food-Lover-main/img/offer-background.jpg") center center/cover no-repeat;
+  height: 800px;
+  color: white;
+  text-align: center;
+}
+.gallery h2{
+  position: relative;
+  top: 100px;
+  font-size: 40px;
+}
+.g-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+.g-img img{
+  margin-right: 60px;
+  margin-top: 50px;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  filter: brightness(80%);
+}
+.g-img img:hover{
+  filter: brightness(100%);
+}
+footer{
+  background-color: rgb(61, 59, 59);
+  height: 40px;
+  text-align: center;
+  color: white;
+}
+footer h6{
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+}
+.contact{
+  background-color: beige;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.detail *{
+  margin-top: 50px;
+  border-style: hidden;
+  border-radius: 0px;
+}
+.detail input{
+  height: 30px;
+}
+.all{
+  margin-top: 150px;
+}
+.detail button{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(250, 200, 75) ;
+  text-transform: uppercase;
+  color: white;
+}
+.detail button:hover{
+  background-color: rgb(78, 63, 63);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

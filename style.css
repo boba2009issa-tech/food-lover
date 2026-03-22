@@ -14,7 +14,7 @@ body{
 }
 header{
   
-  background: url("home_bg.jpeg") center center/cover no-repeat;
+  background: url(home_bg.jpeg) center center/cover no-repeat;
   height: 800px;
   background-attachment: fixed;
   width: 100%;
@@ -121,7 +121,7 @@ header{
   border-color: rgb(255, 177, 9) ;
 }
 .menu{
-  background: url("offer-background.jpg") center center/cover no-repeat;
+  background: url(offer-background.jpg) center center/cover no-repeat;
   height: 600px;
   width: 100%;
   background-attachment: fixed;

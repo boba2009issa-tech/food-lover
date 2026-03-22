@@ -14,7 +14,7 @@ body{
 }
 header{
   
-  background: url("Food-Lover-main/img/home_bg.jpeg") center center/cover no-repeat;
+  background: url("home_bg.jpeg") center center/cover no-repeat;
   height: 800px;
   background-attachment: fixed;
   width: 100%;
@@ -121,7 +121,7 @@ header{
   border-color: rgb(255, 177, 9) ;
 }
 .menu{
-  background: url("Food-Lover-main/img/offer-background.jpg") center center/cover no-repeat;
+  background: url("offer-background.jpg") center center/cover no-repeat;
   height: 600px;
   width: 100%;
   background-attachment: fixed;
@@ -214,7 +214,7 @@ header{
 }
 .time{
   height: 300px;
-  background: url(Food-Lover-main/img/daytime_bg.jpeg) center center/cover no-repeat;
+  background: url(daytime_bg.jpeg) center center/cover no-repeat;
   background-attachment: fixed;
   display: flex ;
   flex-direction: row;
@@ -250,7 +250,7 @@ header{
   left: 20px;
 }
 .gallery{
-  background: url("Food-Lover-main/img/offer-background.jpg") center center/cover no-repeat;
+  background: url("offer-background.jpg") center center/cover no-repeat;
   height: 800px;
   color: white;
   text-align: center;
